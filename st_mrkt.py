@@ -13,6 +13,7 @@ from sklearn import cluster, covariance, manifold
 print(__doc__)
 start_date = datetime(2003, 1, 1).date()
 end_date = datetime(2008, 1, 1).date()
+#including dictionaries
 symbol_dict = {
     'TOT': 'Total',
     'XOM': 'Exxon',
